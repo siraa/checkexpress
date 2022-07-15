@@ -8,7 +8,7 @@ const HourWork = (req,res,next) => {
     let hours =date.getHours()
 
 
-    if(days==0||dasy==6||hours<9||hours>17){
+    if(days==0||days==6||hours<9||hours>15){
         res.send(" work time ")
     }
     else {
